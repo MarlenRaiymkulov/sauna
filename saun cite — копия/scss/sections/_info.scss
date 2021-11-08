@@ -1,0 +1,317 @@
+.about__top {
+    margin-top: 200px;
+
+    h3 {
+        @include font(30px,bold);
+        font-family: Comfortaa;
+        font-style: normal;
+        line-height: 33px;
+        letter-spacing: 0.02em;
+        color: $black;
+        margin-bottom: 50px;
+
+    }
+    &-slide {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        .next {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            position: absolute;
+            top: 40%;
+            left: -20px;
+            transform: rotate(180deg);
+        }
+        .prev {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            position: absolute;
+            top: 40%;
+            right: -20px;
+        }
+        img {
+            width: 290px;
+            height: 190px;
+        }
+    }
+
+    &-prices {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+
+        &-one {
+            @include box;
+            ul {
+                padding: 0;
+                list-style: none;
+                h2 {
+                    @include font (20px,600);
+                    font-family: Nunito;
+                    font-style: normal;
+                    line-height: 27px;
+                    color: $black;
+                    margin: 0 0 5px 0;
+                }
+                h4 {
+                    @include font (16px,normal);
+                    font-family: Nunito;
+                    font-style: normal;
+                    line-height: 135%;
+                    color: $black;
+                    margin: 15px 0 10px 0;
+                }
+                li {
+                    @include font (20px,600);
+                    font-family: Nunito;
+                    font-style: normal;
+                    line-height: 135%;
+                    color: $black;
+                    strong {
+                    color: $orange;
+                    }
+                }
+            }
+
+           div {
+            margin-top: 20px;
+            width: 187px;
+            height: 45px;
+            background: #FB8E30;
+            border-radius: 5px;
+            box-sizing: border-box;
+            text-align: center;
+            margin: 0;
+            padding: 14px 25px;
+            a {
+                @include font (16px,600);
+                font-family: Nunito;
+                font-style: normal;
+                line-height: 100%;
+                letter-spacing: 0.02em;
+                color: $white;
+                text-decoration: none;
+            }
+           } 
+        }
+
+       &-two {
+        @include box;
+        h5 {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            color: #80A529;
+            margin: 10px 0;
+        }
+        span {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 130%;
+            color: #1E1E1E;
+        }
+       }
+    
+       &-three {
+        @include box;
+           &-options {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+           }
+           &-option {
+            display: flex;
+            img {
+                width: 25px;
+                height: 25px;
+                margin-right: 10px;
+                }
+                span {
+                    @include font(16px, 600);
+                    font-family: Nunito;
+                    font-style: normal;
+                    line-height: 22px;
+                    color: $black;
+                }
+            }
+       }
+    
+    }
+
+}
+
+.about__midlle {
+    display: flex;
+    margin-top: 80px;
+
+   &-left  {
+       margin-right: 40px;
+       h3 {
+        @include font(30px,bold);
+        font-family: Comfortaa;
+        font-style: normal;
+        line-height: 33px;
+        letter-spacing: 0.02em;
+        color: $black;
+        margin-bottom: 50px;
+       }
+       p{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #1E1E1E;
+        opacity: 0.8;
+        max-height: 192px;
+       }
+   }
+
+   &-right {
+       text-align: center;
+       position: relative;
+       .next {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: 40%;
+        left: -20px;
+        transform: rotate(180deg);
+    }
+    .prev {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: 40%;
+        right: -20px;
+    }
+   }
+}
+
+.about__bottom {
+    max-width: 100%;
+    h3 {
+        @include font(30px,bold);
+        font-family: Comfortaa;
+        font-style: normal;
+        line-height: 33px;
+        letter-spacing: 0.02em;
+        color: $black;
+        margin-bottom: 50px;
+    }
+    &-items {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        &-discount {
+            position: relative;
+            width: 400px;
+            height: 420px;
+            background: linear-gradient(0deg, #FCFCFC, #FCFCFC);
+            border: 1px solid rgba(230, 230, 230, 0.5);
+            box-sizing: border-box;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+            border-radius: 5px;
+            img {
+                width: 400px;
+                height: 225px;
+                border-radius: 5px;
+            }
+            .tre {
+                width: 195px;
+                height: 35px;
+                left: 17px;
+                top: 15px;
+                background: #80A529;
+                border-radius: 5px;
+            }
+            &-imgbtn {
+                position: absolute;
+                width: 100px;
+                height: 37px;
+                left: 17px;
+                top: 15px;
+                background: $green;
+                border-radius: 5px;
+                box-sizing: border-box;
+                padding: 10px 25px;
+                text-align: center;
+                a {
+                    font-family: Nunito;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: 0.02em;
+                    color: $white;
+                    text-decoration: none;
+                }
+            }
+
+            nav {
+                display: flex;
+                align-items: center;
+                height: 145px;
+                .uno {
+                    font-size: 32px;
+                    width: 53px;
+                }
+                   p {
+                    font-family: Nunito;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 64px;
+                    line-height: 100%;
+                    color: #FB8E30;
+                    margin-right: 20px;
+                    margin-left: 15px;
+                }
+                    h3 {
+                        margin: 0;
+                        margin-bottom: 7px;
+                    }
+                       span { 
+                        font-family: Nunito;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 100%;
+                        text-align: center;
+                        letter-spacing: 0.02em;
+                        color: #1E1E1E;
+                    }
+
+                         
+                    
+            }
+            &-more {
+                padding: 10px;
+                width: 400px;
+                height: 50px;
+                background: #80A529;
+                border-radius: 0px 0px 5px 5px;
+                box-sizing: border-box;
+                text-align: center;
+                
+                a {
+                    font-family: Nunito;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+            }
+            }
+        }
+    }

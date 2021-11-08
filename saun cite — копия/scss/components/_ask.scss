@@ -1,0 +1,89 @@
+.ask {
+    background-color: $green;
+    height: 256px;
+    margin-top: 70px;
+    
+
+    .container {
+    background-color: $green;
+    height: 256px;
+    .ask__content {
+        display: flex;
+
+        .ask__content-right {
+            width: 840px;
+            height: 212px;
+            margin: 10px 0 35px;
+            h2 {
+                font-family: Comfortaa;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 33px;
+                letter-spacing: 0.02em;
+                color: #FFFFFF;
+                padding: 10px;
+                margin: 0;
+            }
+            p,a {
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 19px;
+                color: #FFFFFF;
+                
+                }
+                &-input {
+                    :last-child {
+                        text-align: center;
+                    }
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 900px;
+                    &-box {
+                        width: 400px;
+                        height: 50px;
+                        background: #FFFFFF;
+                        border-radius: 5px;
+                        padding: 10px 10px 10px 20px;
+                        text-align: left;
+                        box-sizing: border-box;
+                        margin: 15px 20px 0;
+                        span {
+                            font-family: Nunito;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 22px;
+                            letter-spacing: 0.02em;
+                            color: rgba(30, 30, 30, 0.5);
+
+
+                        }
+                        
+
+                    }
+            }
+            
+        }
+        .ask__content-left {
+            position: relative;
+            box-sizing: border-box;
+            img {
+                position: absolute;
+                top: -70px;
+                right: -10px;
+                
+            }
+        }
+
+
+
+       }
+        
+    }
+
+
+    
+}

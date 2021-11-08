@@ -1,0 +1,115 @@
+.consultation {
+    margin-top: 215px;
+    display: flex;
+    height: 260x;
+    width: 100%;
+    background-color: $green;
+    &__content {
+        height: 260px;
+        width: 100%;
+        background-color: $green;
+        display: flex;
+        justify-content: space-between;
+        &-left {
+            position: relative;
+            img {
+                position: absolute;
+                width: 416px;
+                height: 350px;
+                top: -115px;
+                left: -70px;
+            }
+       
+        }
+        &-right {
+            width: 100%;
+            padding: 10px;
+            margin-left: 100px;
+
+            h2 {
+                font-family: Comfortaa;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 33px;
+                letter-spacing: 0.02em;
+                color: #FFFFFF;
+                margin: 25px 0 5px 0;
+            }
+            span {
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: 0.02em;
+                color: #FFFFFF;
+                margin-bottom: 25px;
+            }
+            &-box {
+                height: 130px;
+                margin-top: 25px;
+                margin: 10px 0 25px 0;
+
+                &-item1,&-item2{
+                    align-items: center;
+                    padding: 15px 10px 15px 20px;
+                    width: 400px;
+                    height: 50px;
+                    background: $white;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                    margin: 15px 40px 0 0;
+                    a {
+                        font-family: Nunito;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 22px;
+                        letter-spacing: 0.02em;
+                        color: rgba(30, 30, 30, 0.5);
+                        text-decoration: none;
+
+                    }
+                }
+                    &-item3 {
+                        width: 400px;
+                        height: 38px;
+                        margin-top: 15px;
+                        span,a {
+                            font-family: Nunito;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 19px;
+                            color: #FFFFFF;
+                        }
+
+                    }
+                    &-item4 {
+                        padding: 10px 10px 15px 20px;
+                        width: 400px;
+                        height: 50px;
+                        background: $white;
+                        border-radius: 5px;
+                        box-sizing: border-box;
+                        margin: 15px 0 0 40px ;
+                        text-align: center;
+                        a {
+                            font-family: Nunito;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 18px;
+                            line-height: 25px;
+                            color: #80A529;
+                            text-decoration: none;
+                            
+                    }
+                
+            }
+        }
+      
+    }
+}
+
+}
